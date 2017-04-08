@@ -16,7 +16,7 @@ describe("Determine the sequence of an array of numbers: ", function() {
 	it("should return `[2, 3, 5, 7, 11]` for [2, 3, 5, 7, 11]", function() { 
     expect(getPrimes(12)).toEqual([2, 3, 5, 7, 11]);      }); })
 	it("should return `[2, 3, 5, 7, 11, 13]` for [2, 3, 5, 7, 11, 13]", function() {        
-	expect(aritGeo(15)).toEqual([2, 3, 5, 7, 11, 13]);      }); 
+	expect(getPrimes(15)).toEqual([2, 3, 5, 7, 11, 13]);      }); 
     it("should return `[ 2, 3, 5, 7, 11, 13, 17, 19, 23]` for [ 2, 3, 5, 7, 11, 13, 17, 19, 23]", function() {        
-	expect(aritGeo(24)).toEqual([ 2, 3, 5, 7, 11, 13, 17, 19, 23]);      });
+	expect(getPrimes(24)).toEqual([ 2, 3, 5, 7, 11, 13, 17, 19, 23]);      });
 }); }); })();
