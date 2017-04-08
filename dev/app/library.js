@@ -52,7 +52,24 @@ calArithmeticProg: function aritGeo(arr){
 
     return;
 },
+
 getPrimeNumberFunction: function getPrimes(num){
-	
+var container = [], i, j, primeNumber = [];
+if (typeof num == 'string'){
+	return 'undefined';
+}else if(num === undefined){
+	return 'undefined';
+}else {
+    for (i = 2; i <= num; ++i) {
+        if (!container[i]) {
+            primeNumber.push(i);
+            for (j = i << 1; j <= num; j += i) {
+                container[j] = true;
+            }
+        }
+    }
+    return primeNumber;
+}
+}
 }
 }
