@@ -28,5 +28,6 @@ describe("Fizz Buzz tests ", function() {
     });
     it("should return `Error! String provided, intergers Expected` since function takes only integer values", function() {
         expect(fizzBuzz()).toBeDefined();
-    });    
+    }); 
+	
     });

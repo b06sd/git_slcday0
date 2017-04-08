@@ -1,0 +1,28 @@
+{
+  "name": "b06sd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "library.js",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b06sd/git_slcday0.git"
+  },
+  "keywords": [
+    "author:",
+    "Dotun",
+    "Denton"
+  ],
+  "author": "Dotun Denton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b06sd/git_slcday0/issues"
+  },
+  "homepage": "https://github.com/b06sd/git_slcday0#readme"
+}
