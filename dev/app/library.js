@@ -51,5 +51,8 @@ calArithmeticProg: function aritGeo(arr){
     }
 
     return;
+},
+getPrimeNumberFunction: function getPrimes(num){
+	
 }
 }
